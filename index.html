@@ -27,7 +27,7 @@
                 <div class="col-md-4 col-sm-12 col-12">
                     <div class="btn-group">
                         <button class="btn border dropdown-toggle my-md-4 my-2 text-white" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD - US Dollar</button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                        <div class="dropdown-menu">
                             <a href="#" class="dropdown-item">EU - EURO</a>
                             <a href="#" class="dropdown-item">NGN - NAIRA</a>
                             <a href="#" class="dropdown-item">GBP - BRITISH POUNDS</a>
@@ -153,6 +153,19 @@
             </div>
         </div>
         <!--/Second Slider-->
+
+        <hr class="hr">
+
+<!-- Features Section-->
+        <div class="container text-center">
+            <div class="features">
+                <h1>Featured Products</h1>
+                <p class="text-secondary">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eos esse id illum, maiores
+                </p>
+            </div>
+        </div>
+<!-- /Features Section-->
     </main>
 <!--/Main Section-->
     <footer></footer>
@@ -166,5 +179,19 @@
 <!--slick carousel CDN    -->
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="js/main.js"></script>
+
+<script type="text/javascript">
+    /** Second Slider*/
+
+    $(".slider-two")
+        .not(".slick-intialized")
+        .slick({
+            prevArrow:".site-slider-two .prev",
+            nextArrow:".site-slider-two .next",
+            slidesToShow:5,
+            slidesToScroll:1,
+            autoplaySpeed: 3000
+        });
+</script>
 </body>
 </html>
