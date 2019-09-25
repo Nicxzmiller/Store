@@ -186,3 +186,34 @@ header .site-title{
     padding: 0.5% 25%;
     font-size: 0.9em;
 }
+
+/*third slider*/
+
+.site-slider-three{
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.site-slider-three .product{
+    height: 100%;
+    padding: 0;
+}
+
+.site-slider-three .cart-details{
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+}
+
+.rating i{
+    font-size: 0.7rem;
+    color: lightblue;
+}
+
+.site-slider-three .pro-price span{
+    color: var(--text-color);
+}
+
+.product .cart .site-btn:hover{
+    background: var(--primary-color);
+    color: white;
+}
