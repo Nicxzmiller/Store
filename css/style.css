@@ -14,7 +14,7 @@
 }
 
 .primary-color{
-    color: var(--light-gray);
+    color: var(--primary-color);
 }
 
 .bg-primary-color{

@@ -860,6 +860,33 @@
             </div>
         </div>
     </div>
+
+    <div class="container-fluid news pt-5">
+        <div class="row">
+            <div class="col-md-6 col-12 pl-5">
+                <h4 class="primary-color font-roboto m-0 p-0">
+                    Need Help? Call Our Award-Winning
+                </h4>
+                <p class="m-0 p-0 text-secondary">
+                    Support Team 24/7 at (356) 99939920
+                </p>
+            </div>
+            <div class="col-md-4 col-12 my-md-0 my-3 pl-md-0 pl-5">
+                <input type="text" class="form-control border-0 bg-light" placeholder="Enter Your Email Address">
+            </div>
+            <div class="col-md-2 col-12 my-md-0 my-3 pl-md-0 pl-5">
+                <button class="btn bg-primary-color text-white">Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container text-center">
+        <p class="pt-5">
+            <img src="./assets/payment.png" class="img-fluid" alt="payment image">
+        </p>
+        <small class="text-secondary py-4">Daily Tuition © 2019 Gammaweb Store. All Rights Reserved. Designed by Gammaweb</small>
+    </div>
 </footer>
 
 <!--/Footer section-->
@@ -871,9 +898,11 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <!--slick carousel CDN    -->
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<!--<script src="js/main.js"></script>-->
+<script src="js/main.js"></script>
 
 <script type="text/javascript">
+
+
     /** First Slider*/
 
     $(".slider-one")
@@ -895,7 +924,8 @@
             nextArrow:".site-slider-two .next",
             slidesToShow:5,
             slidesToScroll:1,
-            autoplaySpeed: 3000
+            autoplaySpeed: 3000,
+            responsive:breakpoint
         });
 
     /** third Slider*/
@@ -908,7 +938,8 @@
             slidesToShow:5,
             slidesToScroll:1,
             autoplaySpeed: 3000,
-            infinite:false
+            infinite:false,
+            responsive:breakpoint
         });
 
     /** Fourth Slider*/
@@ -921,7 +952,8 @@
             slidesToShow:4,
             slidesToScroll:1,
             autoplaySpeed: 3000,
-            infinite:false
+            infinite:false,
+            responsive:breakpoint
         });
 
     /** Fifth Slider*/
@@ -934,7 +966,8 @@
             slidesToShow:6,
             slidesToScroll:1,
             autoplaySpeed: 3000,
-            infinite:true
+            infinite:true,
+            responsive:breakpoint
         });
 
     /** Sixth Slider*/
